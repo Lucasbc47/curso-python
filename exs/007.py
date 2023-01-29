@@ -1,5 +1,4 @@
 # Salario
-
 nome = input("Insira seu nome:\n")
 salario = int(input("Insira seu salário\nR$: "))
 

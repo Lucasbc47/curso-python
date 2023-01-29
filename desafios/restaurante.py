@@ -1,6 +1,5 @@
 # Exercicio Python
 # Autor: Lucas Barboza Costa
-
 import os
 
 print(f"""
@@ -13,7 +12,7 @@ Código |  Prato               | Preço
 3      |  File mignon         | R$: 65,00
 4      |  Frango a parmegiana | R$: 78,00
 5      |  Churrasco no prato  | R$: 70,00
-    """)
+""")
 
 option = int(input("Informe o código do prato: "))
 

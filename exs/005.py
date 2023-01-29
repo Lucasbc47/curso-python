@@ -1,5 +1,4 @@
 # Variaveis
-
 nome = 'Orrico'
 idade = 41
 altura = 1.87

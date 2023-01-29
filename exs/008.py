@@ -1,6 +1,5 @@
 # mais ifs
 while True:
-
     sexo = input("Insira seu sexo correspondente [m|f]:\n").lower()
 
     if sexo not in ['m', 'f']:

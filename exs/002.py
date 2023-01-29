@@ -1,5 +1,4 @@
 # Operações aritiméticas
-
 print(f"""
 Somar 2 com 2 = {2+2}
 Concatenar 2 com 2: {'2' + '2'}

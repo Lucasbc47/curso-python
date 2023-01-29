@@ -1,5 +1,4 @@
 # Estruturas condicionais
-
 if 2 > 5:
     # () são opcional
     print("2 maior que 5")

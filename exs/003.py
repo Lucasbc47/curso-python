@@ -1,5 +1,4 @@
 # Condições
-
 n1, n2 = 5, 7
 
 print(f"""

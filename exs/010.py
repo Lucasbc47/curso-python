@@ -1,3 +1,4 @@
+# Match Case
 valor = float(input("Mercadoria:"))
 op = int(input("digite 1 para parcelar ou 2 pagamento a vista"))
 
