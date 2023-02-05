@@ -1,11 +1,10 @@
 # Desafio Python [2]
 # Autor: Lucas Barboza Costa
-
 import os
 
 os.system('cls' if os.name == 'nt' else 'clear')
 # Limpa terminal com "cls" caso OS for Windows,
-# se não utiliza "clear" para Linux e MacOS
+# se não utiliza "clear"
 
 meses = [i for i in range(0, 12)]
 valMes = [0]*12
