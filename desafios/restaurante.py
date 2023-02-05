@@ -1,5 +1,6 @@
-# Exercicio Python
+# Desafio Python [1]
 # Autor: Lucas Barboza Costa
+
 import os
 
 print(f"""
