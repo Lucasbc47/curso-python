@@ -3,8 +3,6 @@
 import os
 
 os.system('cls' if os.name == 'nt' else 'clear')
-# Limpa terminal com "cls" caso OS for Windows,
-# se não utiliza "clear"
 
 meses = [i for i in range(0, 12)]
 valMes = [0]*12
@@ -34,20 +32,21 @@ while True:
                     print("Mês tem que estar entre 1 e 12.")
                     input("Digite qualquer tecla para continuar...")
                     os.system('cls' if os.name == 'nt' else 'clear')
-                    continue
 
+                    continue
 
             except:
                 print("- Troque [,] por [.] se possivel")
                 print("- Verifique se você inseriu números")
                 input("Digite qualquer tecla para continuar...")
                 os.system('cls' if os.name == 'nt' else 'clear')
+
                 continue
             
-
             valMes[mes-1] = valSer + valMes[mes-1]
             valAno = valAno + valSer
             os.system('cls' if os.name == 'nt' else 'clear')
+
 
         case 2:
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -64,11 +63,15 @@ while True:
             input("Digite enter para continuar...") 
             os.system('cls' if os.name == 'nt' else 'clear')
 
+
         case 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
             print("Até a próxima!")
             break
         case _:
             print("Insira uma opção válida!")
             input("Digite qualquer tecla para continuar...")
             os.system('cls' if os.name == 'nt' else 'clear')
+
+            
 
