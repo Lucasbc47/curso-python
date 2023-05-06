@@ -1,4 +1,4 @@
-# Pacote para criar graficos ou desenhos
+# Projeto de grafico de barras
 import turtle
 
 def desenhaBarra(t: turtle.Turtle, altura):

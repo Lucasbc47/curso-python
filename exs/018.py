@@ -26,6 +26,3 @@ while True:
     if continuar == "n":
         break
     
-
-
-

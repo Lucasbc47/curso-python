@@ -1,4 +1,4 @@
-# Pacote para criar graficos ou desenhos
+# Quadrados
 import turtle
 
 def draw_square(t, tam):
